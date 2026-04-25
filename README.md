@@ -2,7 +2,7 @@
 
 A portable, tool-independent knowledge system for Obsidian. Works with Claude Code, Cursor, Gemini CLI, or any AI tool that reads markdown.
 
-Built and maintained by [Matheus Vizotto](https://instagram.com/buildwithmatt.ai).
+Built and maintained by [Matheus Vizotto](https://matheusvizotto.com).
 
 ---
 
