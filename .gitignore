@@ -1,0 +1,45 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Obsidian workspace (changes per machine)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugin binaries (users install via Obsidian community plugins)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/themes/*/theme.css
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Personal vault content (never commit to public repo)
+/Context/
+/Daily/
+/Intelligence/
+/Projects/
+/Skills/
+/Resources/
+/MV & Matt | Social Media/
+/MV & Matt.md
+/MatheusVizotto | Voice/
+/MatheusVizotto | Website/
+/MatheusVizotto.md
+.claude/settings.local.json
+
+# Private folders
+# private/
+# journal/
+# finance/
+# health/
+
+# Node modules (if using any scripts)
+node_modules/
+
+# Logs
+*.log
+/claude.md
