@@ -43,3 +43,7 @@ node_modules/
 # Logs
 *.log
 /claude.md
+# Personal profile files from original creator - replace with your own
+.claude/skills/linkedin-writer/references/ben-profile-background.md
+.claude/skills/newsletter-writer/references/01_Ben_Profile_Background.md
+.claude/skills/youtube-brief/references/ben-profile-background.md
