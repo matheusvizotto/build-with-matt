@@ -3,12 +3,12 @@ type: skill
 skill: blog-post
 status: active
 date: 2026-04-24
-tags: [skill, aios, blog, seo, aeo, portable]
+tags: [skill, second-brain, blog, seo, aeo, portable]
 ---
 
 ## Skill: Blog Post
 
-When asked to write a blog post for matheusvizotto.com, follow this process.
+When asked to write a blog post, follow this process.
 
 ---
 
@@ -16,9 +16,7 @@ When asked to write a blog post for matheusvizotto.com, follow this process.
 
 Load context:
 - `02 Context/brand.md` — voice rules
-- `Matt.AI/Skills/blog-writer/notes.md` — full structure, SEO/AEO checklist, citation tiers
-- `Matt.AI/Projects/matheusvizotto-com/strategy/blog-strategy.md` — content clusters, topic fit
-- `03 Intelligence/market/aeo-ai-discoverability.md` — AI citation rules
+- `02 Context/strategy.md` — content clusters, topic fit
 
 ---
 
@@ -26,7 +24,6 @@ Load context:
 
 - Conversational but authoritative. From inside the work, not observing from above.
 - "Here's what I found when I tested this" not "Research suggests that..."
-- Natural Australian English. "optimise" not "optimize", "behaviour" not "behavior"
 - No dashes (em dash, en dash, mid-sentence hyphen) — commas or full stops only
 - No buzzwords. No generic filler openers ("In today's digital landscape...")
 - Every stat cited with a real, named source
@@ -44,7 +41,7 @@ Load context:
 1. Heading as a question or direct action phrase
 2. 40-60 word answer-first paragraph (standalone — this is what AI engines extract)
 3. Deeper explanation
-4. Proof from Matheus's real work or a named data source
+4. Proof from your real work or a named data source
 5. How to apply it
 
 **Close:** Key insight summary + first action to take + internal link to next resource
@@ -66,21 +63,11 @@ Load context:
 
 ---
 
-### Content Pillars (posts must fit one)
-
-1. AEO / AI Search visibility
-2. Growth marketing systems
-3. Claude and AI tools for marketers
-4. Performance marketing (Google, Meta)
-
----
-
 ### Differentiation Signals (at least one per post)
 
-- VenueNow as the lab — real campaigns, real outcomes, real numbers
-- Claude Code skills (live, downloadable) — link to the actual skill
+- Your real work as the lab — real campaigns, real outcomes, real numbers
+- Build-in-public — actual files, actual prompt structures, actual results
 - Failure is fair game — "I tried X and it didn't work. Here's why."
-- Build-in-public — actual CLAUDE.md files, actual prompt structures
 - Specific numbers — "cut reporting time from 45 min to 8" beats "saved significant time"
 
 ---
@@ -93,6 +80,6 @@ Load context:
 4. Add internal links (5+ within cluster)
 5. Add visuals (2+ per post)
 6. Schema check: Article + FAQPage
-7. Publish to `matheusvizotto.com`
+7. Publish to your website
 8. Publish LinkedIn post with key insight within 24h
-9. Log in content calendar: `Matt.AI/Projects/matheusvizotto-com/content-calendar`
+9. Log in content calendar: `Projects/{website-project}/content-calendar`

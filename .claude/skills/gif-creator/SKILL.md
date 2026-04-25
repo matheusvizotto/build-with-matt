@@ -95,7 +95,7 @@ Font paths: `/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf` and `Poppi
 - Downward arrows between cards (5px line, triangular arrowhead)
 
 ### Footer
-Always include: `"Ben Van Sprundel  |  Founder @ MattAI"`
+Always include: `"{{NAME}} | {{TITLE}}"`
 
 ## Icons and Logos
 
@@ -190,7 +190,7 @@ Before delivering, verify:
 - [ ] Cards have solid black shadows, borders, and rounded corners
 - [ ] Text is crisp (not blurry)
 - [ ] Text is vertically centered in cards
-- [ ] Footer includes "Ben Van Sprundel | Founder @ MattAI"
+- [ ] Footer includes "{{NAME}} | Founder @ MattAI"
 - [ ] Both GIF and static PNG are saved
 - [ ] GIF file size is under 500KB
 - [ ] Logos/icons are drawn programmatically (no external files)

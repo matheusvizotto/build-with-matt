@@ -3,12 +3,12 @@ type: skill
 skill: linkedin-post
 status: active
 date: 2026-04-24
-tags: [skill, aios, linkedin, content, portable]
+tags: [skill, second-brain, linkedin, content, portable]
 ---
 
 ## Skill: LinkedIn Post
 
-When asked to write a LinkedIn post as Matheus Vizotto, follow this process.
+When asked to write a LinkedIn post, follow this process.
 
 ---
 
@@ -16,15 +16,13 @@ When asked to write a LinkedIn post as Matheus Vizotto, follow this process.
 
 Load context:
 - `02 Context/brand.md` — voice rules
-- `Matt.AI/Skills/linkedin-writer/notes.md` — post structure, formatting rules
-- `Matt.AI/MV & Matt | Social Media/Linkedin/published-history.md` — voice reference (92 real posts)
-- `Matt.AI/Projects/personal-brand-mv/content-pillars.md` — 5 pillars, what topics are in scope
+- `02 Context/me.md` — who you are, your content pillars
 
 ---
 
 ### Voice Rules
 
-- Natural Australian English — simple, spoken-sounding
+- Natural, simple, spoken-sounding
 - No dashes (em dash, en dash, mid-sentence hyphens) — use commas, periods, or rephrase
 - No buzzwords: "game-changer", "paradigm shift", "in today's fast-paced landscape" — never
 - No motivational filler: "believe in yourself", "hustle harder" — never
@@ -42,17 +40,6 @@ Load context:
 
 ---
 
-### Content Pillars
-
-Posts must fit one of:
-1. Agentic AI — building with Claude, agents, automation systems
-2. AI Marketing — applying AI to growth, ads, content, SEO
-3. AEO/Search — AI answer engine optimisation, search visibility
-4. Claude Skills — specific skills built and how they work
-5. Growth Systems — frameworks, processes, how things are built
-
----
-
 ### Formatting Rules
 
 - Line breaks between every paragraph — no walls of text
@@ -66,15 +53,13 @@ Posts must fit one of:
 ### Save After Writing
 
 Every post must be saved immediately after writing:
-- File: `Matt.AI/MV & Matt | Social Media/Linkedin/linkedin_post_00X_{slug}.md`
-- Number sequentially after checking existing posts in published-history
-- Update `Matt.AI/MV & Matt | Social Media/Linkedin/published-history.md` with the new entry
+- File: `Content/linkedin/linkedin_post_{slug}.md`
+- Number sequentially if tracking post history
 
 ---
 
 ### Rules
 
-- Never finish writing a post without saving it to the Linkedin folder
-- All content in English (Australian grammar) — never Portuguese
-- Every post must reference or connect to one of the 5 content pillars
+- Never finish writing a post without saving it
+- Every post must connect to one of your content pillars (see `02 Context/brand.md`)
 - Do not create an image unless explicitly asked — flag that an image is needed

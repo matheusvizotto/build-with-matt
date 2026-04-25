@@ -19,7 +19,7 @@ File a decision record when:
 - A structural change to the vault or a project is decided
 - A product direction is confirmed or reversed
 - A pricing, positioning, or business decision is made
-- A client relationship decision is made (e.g. "paused GS Porto engagement")
+- A client relationship decision is made (e.g. "paused client X engagement")
 
 Do not file for: routine tasks, content choices, minor edits.
 
@@ -33,7 +33,7 @@ Use today's date. Title should be lowercase, hyphenated, specific.
 
 Examples:
 - `2026-04-24-bookly-switched-to-supabase.md`
-- `2026-04-24-mirrofish-not-built-by-matheus.md`
+- `2026-04-24-project-x-direction-changed.md`
 - `2026-04-24-aios-folder-created.md`
 
 ---

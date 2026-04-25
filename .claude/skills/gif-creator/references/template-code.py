@@ -338,7 +338,7 @@ def draw_footer(draw):
     footer_y = HEIGHT - 135
     draw.line([(180, footer_y - 24), (WIDTH - 180, footer_y - 24)], fill=(210, 205, 190), width=3)
 
-    footer_text = "Ben Van Sprundel  |  Founder @ BenAI"
+    footer_text = "{{NAME}} | {{TITLE}}"
     bbox = draw.textbbox((0, 0), footer_text, font=FONT_FOOTER)
     ftw = bbox[2] - bbox[0]
     draw.text(((WIDTH - ftw) // 2, footer_y + 6), footer_text, fill=GRAY_TEXT, font=FONT_FOOTER)

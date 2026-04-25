@@ -2,7 +2,5 @@
 # These paths are excluded from indexing, search, and graph view
 
 # npm dependencies — hundreds of package README.md files, not vault content
-MatheusVizotto | Website/site/node_modules
-
-# BenAI plugin system — external tool code, not personal knowledge
-benai-skills
+# Add your website/project node_modules path here, e.g.:
+# MyWebsite/site/node_modules

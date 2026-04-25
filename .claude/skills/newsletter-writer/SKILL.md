@@ -1,11 +1,11 @@
 ---
 name: newsletter-writer
-description: "Iterative newsletter writing workflow for Ben Van Sprundel's audience. Use when Ben wants to write a newsletter from an insight, idea, or YouTube video transcript. This is a CREATIVE, STEP-BY-STEP process - never output a complete newsletter immediately. Each step requires suggestions, user decision, then progression to next step. Triggers: newsletter, write newsletter, email content, repurpose video, insight to newsletter."
+description: "Iterative newsletter writing workflow for the user's audience. Use when Ben wants to write a newsletter from an insight, idea, or YouTube video transcript. This is a CREATIVE, STEP-BY-STEP process - never output a complete newsletter immediately. Each step requires suggestions, user decision, then progression to next step. Triggers: newsletter, write newsletter, email content, repurpose video, insight to newsletter."
 ---
 
-# Ben's Newsletter Writer
+# the user's Newsletter Writer
 
-An iterative, creative workflow for writing newsletters in Ben's authentic voice.
+An iterative, creative workflow for writing newsletters in the user's authentic voice.
 
 ## Critical Rules
 
@@ -18,7 +18,7 @@ An iterative, creative workflow for writing newsletters in Ben's authentic voice
 ## Context Documents Location
 
 All documents are in the `references/` folder bundled with this skill:
-- `references/01_Ben_Profile_Background.md` - Ben's story, credentials, values
+- `references/01_Ben_Profile_Background.md` - the user's story, credentials, values
 - `references/02_What_We_Do_Offer.md` - The offer and value proposition
 - `references/03_ICP_Ideal_Customer_Profile.md` - Target audience details
 - `references/04_Voice_Personality.md` - Tone and messaging
@@ -85,15 +85,15 @@ Supporting transformations that reinforce the main message.
 
 **REQUIRED READING BEFORE THIS STEP:**
 - `references/01_Ben_Profile_Background.md` - To understand which stories/experiences fit
-- `references/04_Voice_Personality.md` - To map framework to Ben's voice modes
+- `references/04_Voice_Personality.md` - To map framework to the user's voice modes
 - `references/07_Writing_Framework.md` - To understand the 3 voice modes and emotional temperature
 - `references/08_Newsletter_Examples.md` - Study the section patterns in real examples
 
-Based on the insight, outcomes, and Ben's background, propose **at least 3 outline options** for the newsletter. Each outline defines the writing framework, the sections, their purpose, and the flow of the piece. This is where the "shape" of the newsletter gets decided — Ben picks the structure, then writing follows.
+Based on the insight, outcomes, and the user's background, propose **at least 3 outline options** for the newsletter. Each outline defines the writing framework, the sections, their purpose, and the flow of the piece. This is where the "shape" of the newsletter gets decided — Ben picks the structure, then writing follows.
 
 **How to generate outlines:**
 
-Draw from writing frameworks and adapt them to Ben's newsletter style. Each outline should feel genuinely distinct — not just different labels on the same structure. Consider the content and which angle serves it best.
+Draw from writing frameworks and adapt them to the user's newsletter style. Each outline should feel genuinely distinct — not just different labels on the same structure. Consider the content and which angle serves it best.
 
 **Frameworks to draw from:**
 
@@ -146,7 +146,7 @@ P.S.: [Pitch angle]
 - "Keep going, Ben" sign-off
 - P.S. with soft accelerator pitch
 
-**Study the "Key Patterns Across All Examples" section in `references/08_Newsletter_Examples.md`** to ensure structures follow Ben's proven patterns.
+**Study the "Key Patterns Across All Examples" section in `references/08_Newsletter_Examples.md`** to ensure structures follow the user's proven patterns.
 
 **STOP. Wait for Ben to pick, combine, or modify outlines before writing.**
 
@@ -157,7 +157,7 @@ P.S.: [Pitch angle]
 **REQUIRED READING BEFORE THIS STEP:**
 - `references/08_Newsletter_Examples.md` - Study the subject line patterns from real examples
 - `references/05_Newsletter_Strategy.md` - To align subject lines with positioning and core beliefs
-- `references/04_Voice_Personality.md` - To ensure subject line tone matches Ben's voice (confident, direct, not clickbaity)
+- `references/04_Voice_Personality.md` - To ensure subject line tone matches the user's voice (confident, direct, not clickbaity)
 - `references/03_ICP_Ideal_Customer_Profile.md` - To craft subject lines that resonate with the target audience's pain points and desires
 
 Now that the outline is locked, generate subject line options that align with the chosen structure and angle.
@@ -200,7 +200,7 @@ Present **3-5 hook options** that fit the selected outline. Each hook is the ope
 4. **Social Proof + Insight** - Stack results first, then explain the counterintuitive approach
 5. **Story Entry Point** - Drop the reader into a specific moment in time
 
-Each hook should be 4-8 short paragraphs, written in Ben's voice. The hook must flow naturally into the first section of the selected outline.
+Each hook should be 4-8 short paragraphs, written in the user's voice. The hook must flow naturally into the first section of the selected outline.
 
 **STOP. Wait for Ben to pick a hook.**
 
@@ -285,7 +285,7 @@ Each hook should be 4-8 short paragraphs, written in Ben's voice. The hook must 
 
 Write the complete draft. Run the checklist. Fix issues.
 
-**STOP. Present draft and be ready to iterate based on Ben's feedback.**
+**STOP. Present draft and be ready to iterate based on the user's feedback.**
 
 ---
 
@@ -305,7 +305,7 @@ At any step, if Ben wants to revise:
 
 Never rush through steps. The iterative process IS the value.
 
-## Quick Reference: Ben's Signature Elements
+## Quick Reference: the user's Signature Elements
 
 **Phrases to use naturally:**
 - "That's it."

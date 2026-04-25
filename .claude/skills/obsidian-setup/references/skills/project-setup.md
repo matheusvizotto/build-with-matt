@@ -47,7 +47,7 @@ After creating the README, link it from:
 - `Projects/Active Projects.md` — add row to the correct table
 - `knowledge/index.md` — add to Key Projects table if significant
 - Parent folder README if one exists (e.g. `Projects/Website Project/`)
-- `02 Context/Matheus Vizotto.md` if it's a personal brand project
+- `02 Context/me.md` if it's a personal brand project
 
 Never create an orphan note.
 

@@ -37,16 +37,16 @@ Google Meet ends
 
 ```bash
 # Check for new notes now (don't wait 30 min)
-python3 "/Users/matt/Documents/AI OS/Second Brain/scripts/meet-sync.py"
+python3 "Second Brain/scripts/meet-sync.py"
 
 # Dry run — see what would be processed
-python3 "/Users/matt/Documents/AI OS/Second Brain/scripts/meet-sync.py" --dry-run
+python3 "Second Brain/scripts/meet-sync.py" --dry-run
 
 # Force reprocess a specific Drive file
-python3 "/Users/matt/Documents/AI OS/Second Brain/scripts/meet-sync.py" --reprocess <FILE_ID>
+python3 "Second Brain/scripts/meet-sync.py" --reprocess <FILE_ID>
 
 # Check sync log
-tail -50 ~/.config/jarvis/meet-sync.log
+tail -50 ~/.config/meet-sync/meet-sync.log
 ```
 
 ---
@@ -55,11 +55,11 @@ tail -50 ~/.config/jarvis/meet-sync.log
 
 | Detected | Route to |
 |---|---|
-| Known 1:1 person (Marcos Ferreira, Emanuel Vizotto, etc.) | `one-on-ones/` |
-| Client name (Phalcon, 77 Tours, GS Porto, etc.) | `client-calls/` |
+| Known 1:1 person (add names to ONE_ON_ONE_NAMES in meet-sync.py) | `one-on-ones/` |
+| Client name (add names to CLIENT_NAMES in meet-sync.py) | `client-calls/` |
 | Everything else | `general/` |
 
-To add new people or clients, update the `ONE_ON_ONE_NAMES` and `CLIENT_NAMES` sets in `meet-sync.py`.
+To add people or clients, update the `ONE_ON_ONE_NAMES` and `CLIENT_NAMES` sets in `meet-sync.py`.
 
 ---
 
@@ -95,39 +95,22 @@ tags: [meeting, one-on-one]
 
 ## First-Time Setup
 
-If the daemon isn't running yet:
-
 ```bash
-bash "/Users/matt/Documents/AI OS/Second Brain/scripts/meet-setup.sh"
+bash "Second Brain/scripts/meet-setup.sh"
 ```
 
 Steps it runs:
 1. `pip3 install google-api-python-client`
 2. OAuth2 flow (opens browser once)
-3. Installs launchd agent at `~/Library/LaunchAgents/com.jarvis.meet-sync.plist`
+3. Installs launchd agent at `~/Library/LaunchAgents/com.meet-sync.plist`
 4. Runs first sync
 
-**Prerequisite:** Google credentials JSON from Google Cloud Console → save to `~/.config/jarvis/google-credentials.json`
-
-See `Second Brain/scripts/meet-setup.sh` for full instructions.
+**Prerequisite:** Google credentials JSON from Google Cloud Console → save to `~/.config/meet-sync/google-credentials.json`
 
 ---
 
 ## State and Logs
 
-- `~/.config/jarvis/meet-sync-state.json` — list of processed Drive file IDs (prevents duplicates)
-- `~/.config/jarvis/meet-sync.log` — stdout log
-- `~/.config/jarvis/meet-sync-error.log` — error log
-
----
-
-## Adding More People
-
-Edit `meet-sync.py`, `ONE_ON_ONE_NAMES` set:
-
-```python
-ONE_ON_ONE_NAMES = {
-    "marcos ferreira", "marcos",
-    "new person name",  # add here
-}
-```
+- `~/.config/meet-sync/meet-sync-state.json` — list of processed Drive file IDs (prevents duplicates)
+- `~/.config/meet-sync/meet-sync.log` — stdout log
+- `~/.config/meet-sync/meet-sync-error.log` — error log

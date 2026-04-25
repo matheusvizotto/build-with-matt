@@ -42,7 +42,7 @@ Pull only what has lasting value. Skip summaries, recaps, and filler.
 
 **Always extract:**
 - Key claims with numbers (stat, source name, year)
-- Strategic implications — what this means for Matheus's work specifically
+- Strategic implications — what this means for your work specifically
 - Contradictions with existing vault knowledge (flag these explicitly)
 
 **Source quality check before extracting:**
@@ -100,7 +100,7 @@ tags: [{relevant}, {tags}]
 
 ## Strategic Implications
 
-What this means for Matheus's active projects — specific, not generic.
+What this means for your active projects — specific, not generic.
 
 ## Sources
 

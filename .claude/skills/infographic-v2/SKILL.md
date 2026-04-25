@@ -644,7 +644,7 @@ If confirmed: append a new numbered rule to the Rules section below.
 6. Use style anchors, not abstract descriptors ("Moebius meets Adult Swim" beats "clean modern illustration")
 7. NEVER use black backgrounds
 8. Max 4-5 distinct elements per infographic, one key message rule
-9. Always include footer: "Ben Van Sprundel | Founder @ MattAI"
+9. Always include footer: "{{NAME}} | Founder @ MattAI"
 10. Instruct clearly in the process when to use each reference file (lazy loading)
 11. Never ask for confirmation of something the AI decided -- state it and let the user override
 12. Batch independent questions into a single AskUserQuestion when possible
