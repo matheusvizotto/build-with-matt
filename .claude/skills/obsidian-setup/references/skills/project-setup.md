@@ -3,7 +3,7 @@ type: skill
 skill: project-setup
 status: active
 date: 2026-04-24
-tags: [skill, aios, project, setup, portable]
+tags: [skill, second-brain, project, setup, portable]
 ---
 
 ## Skill: Project Setup
@@ -16,11 +16,11 @@ When asked to set up a new project in the vault, follow this process.
 
 | Type | Vault location | Code location |
 |---|---|---|
-| Website client | `Projects/Website Project/Site \| {Name}/` | `~/Documents/Code/clients/websites/{slug}` |
+| Website client | `Projects/Website Projects/Site \| {Name}/` | `~/Documents/Code/clients/websites/{slug}` |
 | App | `Projects/App Project/{Name}/` | `~/Documents/Code/apps/{slug}` |
 | Code repository | `Projects/Repository/{Name}/` | `~/Documents/Code/repos/{slug}` |
 | Client (full engagement) | `Projects/{Name} \| Project/` | `~/Documents/Code/clients/{slug}` |
-| Personal brand project | `Matt.AI/Projects/{name}/` | varies |
+| Personal brand project | `Projects/{name}/` | varies |
 
 ---
 
@@ -46,7 +46,7 @@ tags: [project, {type}]
 After creating the README, link it from:
 - `Projects/Active Projects.md` — add row to the correct table
 - `knowledge/index.md` — add to Key Projects table if significant
-- Parent folder README if one exists (e.g. `Projects/Website Project/`)
+- Parent folder README if one exists
 - `02 Context/me.md` if it's a personal brand project
 
 Never create an orphan note.

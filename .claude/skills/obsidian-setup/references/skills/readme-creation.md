@@ -29,7 +29,7 @@ Do not guess. Do not invent. If something is not in the code, flag it as unknown
 ### Step 2 — File Location
 
 Vault notes for projects:
-- Website projects: `Projects/Website Project/Site | {Name}/README.md`
+- Website projects: `Projects/Website Projects/Site | {Name}/README.md`
 - App projects: `Projects/App Project/{Name}/README.md`
 - Repos: `Projects/Repository/{Name}/README.md`
 - Client projects: `Projects/{Name} | Project/README.md`

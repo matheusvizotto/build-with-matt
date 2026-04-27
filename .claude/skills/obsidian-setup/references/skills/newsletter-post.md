@@ -17,7 +17,7 @@ When asked to write an edition of **In Motion** (Beehiiv newsletter), follow thi
 Load context:
 - `02 Context/brand.md` — voice rules
 - `Matt.AI/Skills/newsletter-writer/strategy.md` — format, structure, 7 voice principles
-- `Matt.AI/Projects/personal-brand-mv/content-pillars.md` — 5 pillars, topic scope
+- `Projects/{name}/content-pillars.md` — 5 pillars, topic scope
 - Recent LinkedIn posts — if a topic got strong engagement there, that's the newsletter edition
 
 ---
@@ -75,5 +75,5 @@ Load context:
 
 ### After Writing
 
-- Save draft to `Matt.AI/Projects/personal-brand-mv/drafts/newsletter_YYYY-MM-DD_{slug}.md`
+- Save draft to `Content/newsletter/newsletter_YYYY-MM-DD_{slug}.md`
 - Cross-post to LinkedIn as article or native post after publishing on Beehiiv
