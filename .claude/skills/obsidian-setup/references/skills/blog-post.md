@@ -8,21 +8,21 @@ tags: [skill, second-brain, blog, seo, aeo, portable]
 
 ## Skill: Blog Post
 
-When asked to write a blog post, follow this process.
+When asked to write a blog post for {{WEBSITE}}, follow this process.
 
 ---
 
 ### Before Writing
 
 Load context:
-- `02 Context/brand.md` — voice rules
-- `02 Context/strategy.md` — content clusters, topic fit
+- `02 Context/brand.md` — voice rules, audience, content strategy
+- `02 Context/me.md` — identity, positioning, differentiators
 
 ---
 
 ### Voice Rules
 
-- Conversational but authoritative. From inside the work, not observing from above.
+- {{VOICE_TONE}}
 - "Here's what I found when I tested this" not "Research suggests that..."
 - No dashes (em dash, en dash, mid-sentence hyphen) — commas or full stops only
 - No buzzwords. No generic filler openers ("In today's digital landscape...")
@@ -41,7 +41,7 @@ Load context:
 1. Heading as a question or direct action phrase
 2. 40-60 word answer-first paragraph (standalone — this is what AI engines extract)
 3. Deeper explanation
-4. Proof from your real work or a named data source
+4. Proof from {{NAME}}'s real work or a named data source
 5. How to apply it
 
 **Close:** Key insight summary + first action to take + internal link to next resource
@@ -63,9 +63,22 @@ Load context:
 
 ---
 
+### Content Pillars
+
+Posts must fit one of:
+{{CONTENT_PILLARS}}
+
+---
+
+### Audience
+
+{{AUDIENCE}}
+
+---
+
 ### Differentiation Signals (at least one per post)
 
-- Your real work as the lab — real campaigns, real outcomes, real numbers
+- {{BRAND}} as the lab — real campaigns, real outcomes, real numbers
 - Build-in-public — actual files, actual prompt structures, actual results
 - Failure is fair game — "I tried X and it didn't work. Here's why."
 - Specific numbers — "cut reporting time from 45 min to 8" beats "saved significant time"
@@ -80,6 +93,6 @@ Load context:
 4. Add internal links (5+ within cluster)
 5. Add visuals (2+ per post)
 6. Schema check: Article + FAQPage
-7. Publish to your website
+7. Publish to `{{WEBSITE}}`
 8. Publish LinkedIn post with key insight within 24h
-9. Log in content calendar: `Projects/{website-project}/content-calendar`
+9. Log in content calendar: `Content/blog/content-calendar.md`

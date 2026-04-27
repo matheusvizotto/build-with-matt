@@ -8,21 +8,21 @@ tags: [skill, second-brain, linkedin, content, portable]
 
 ## Skill: LinkedIn Post
 
-When asked to write a LinkedIn post, follow this process.
+When asked to write a LinkedIn post as {{NAME}}, follow this process.
 
 ---
 
 ### Before Writing
 
 Load context:
-- `02 Context/brand.md` — voice rules
-- `02 Context/me.md` — who you are, your content pillars
+- `02 Context/brand.md` — voice rules, audience, content pillars
+- `02 Context/me.md` — identity and positioning
 
 ---
 
 ### Voice Rules
 
-- Natural, simple, spoken-sounding
+- {{VOICE_TONE}}
 - No dashes (em dash, en dash, mid-sentence hyphens) — use commas, periods, or rephrase
 - No buzzwords: "game-changer", "paradigm shift", "in today's fast-paced landscape" — never
 - No motivational filler: "believe in yourself", "hustle harder" — never
@@ -37,6 +37,19 @@ Load context:
 2. **Expand** — Take a clear POV. What does this actually mean?
 3. **3 concrete steps** or a direct recommendation
 4. **CTA** — Question or invitation. Short. Not generic ("What do you think?").
+
+---
+
+### Audience
+
+{{AUDIENCE}}
+
+---
+
+### Content Pillars
+
+Posts must fit one of:
+{{CONTENT_PILLARS}}
 
 ---
 
@@ -61,5 +74,5 @@ Every post must be saved immediately after writing:
 ### Rules
 
 - Never finish writing a post without saving it
-- Every post must connect to one of your content pillars (see `02 Context/brand.md`)
+- Every post must connect to one of the content pillars above
 - Do not create an image unless explicitly asked — flag that an image is needed

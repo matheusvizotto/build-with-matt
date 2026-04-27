@@ -117,6 +117,29 @@ Extract from the answer:
 
 ---
 
+## Token Map
+
+After Phase 1, build this token map from the interview answers. Every token is used in Phase 2 to personalise the vault files.
+
+| Token | Source | Fallback |
+|---|---|---|
+| `{{NAME}}` | Q1: full name | `"you"` |
+| `{{AI_NAME}}` | Phase 0: AI name chosen | `"Claude"` |
+| `{{WEBSITE}}` | Q1 or Q3: personal website or domain | `"your website"` |
+| `{{BRAND}}` | Q1 or Q3: brand or company name | `"your brand"` |
+| `{{LOCATION}}` | Q1: location or city | omit if not mentioned |
+| `{{VOICE_TONE}}` | Q3: tone or voice cues | `"Direct, conversational, honest. From inside the work, not observing from above."` |
+| `{{AUDIENCE}}` | Q3: audience description | `"your target audience"` |
+| `{{CONTENT_PILLARS}}` | Q3: topics or content themes | `"1. Your core expertise\n2. Tools and systems you use\n3. Results and case studies"` |
+| `{{INSTAGRAM_ACCOUNTS}}` | Q3: Instagram handles or accounts | `"Add your Instagram handles to 02 Context/brand.md"` |
+| `{{NEWSLETTER_NAME}}` | Q3: newsletter name | `"your newsletter"` |
+| `{{NEWSLETTER_PLATFORM}}` | Q3: newsletter platform (Beehiiv, Substack, etc.) | `"your platform"` |
+
+Build `{{CONTENT_PILLARS}}` as a numbered list, one pillar per line.
+Build `{{INSTAGRAM_ACCOUNTS}}` as a table with columns: Account | Handle | Purpose.
+
+---
+
 ## Phase 2 — Build
 
 Work silently. Do not narrate each step. Build everything, then confirm once at the end.
@@ -275,7 +298,9 @@ tags: [brand, voice, content]
 
 ### Step D — Write Skill Files
 
-Copy all portable skills into `Second Brain/skills/`. Write each one from the reference files.
+Copy all portable skills into `Second Brain/skills/`. For each file: read the reference, replace every `{{TOKEN}}` using the Token Map, then write to the target path.
+
+If a token has no value (user skipped), use the fallback from the Token Map — never leave a raw `{{TOKEN}}` in the output file.
 
 | Reference | Target |
 |---|---|

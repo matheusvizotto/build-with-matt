@@ -8,7 +8,13 @@ tags: [skill, second-brain, instagram, content, portable]
 
 ## Skill: Instagram Post
 
-When asked to write an Instagram post, follow this process.
+When asked to write an Instagram post as {{NAME}}, follow this process.
+
+---
+
+### Accounts
+
+{{INSTAGRAM_ACCOUNTS}}
 
 ---
 
@@ -16,17 +22,16 @@ When asked to write an Instagram post, follow this process.
 
 Load context:
 - `02 Context/brand.md` — voice rules, audience, tone
-- `02 Context/me.md` — who you are, what you stand for
+- `02 Context/me.md` — identity, what you stand for
 
 ---
 
 ### Voice Rules
 
+- {{VOICE_TONE}}
 - Natural, human, warm — same voice as LinkedIn but more casual
 - Short sentences. Real thoughts, not performances.
 - No corporate tone, no buzzwords
-- Educational posts: "here's what I made and how it works"
-- Personal posts: authentic moments, not curated highlight reel
 
 ---
 
@@ -42,6 +47,12 @@ Load context:
 1. Authentic moment or observation — caption should feel like a real thought
 2. Short. One idea. No need to sell anything.
 3. Hashtags optional — 3-5 max if used
+
+---
+
+### Audience
+
+{{AUDIENCE}}
 
 ---
 

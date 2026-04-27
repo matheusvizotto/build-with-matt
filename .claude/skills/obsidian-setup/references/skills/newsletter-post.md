@@ -3,38 +3,37 @@ type: skill
 skill: newsletter-post
 status: active
 date: 2026-04-24
-tags: [skill, aios, newsletter, in-motion, beehiiv, portable]
+tags: [skill, second-brain, newsletter, portable]
 ---
 
 ## Skill: Newsletter Post
 
-When asked to write an edition of **In Motion** (Beehiiv newsletter), follow this process.
+When asked to write a newsletter edition for {{NAME}}, follow this process.
 
 ---
 
 ### Before Writing
 
 Load context:
-- `02 Context/brand.md` — voice rules
-- `Matt.AI/Skills/newsletter-writer/strategy.md` — format, structure, 7 voice principles
-- `Projects/{name}/content-pillars.md` — 5 pillars, topic scope
-- Recent LinkedIn posts — if a topic got strong engagement there, that's the newsletter edition
+- `02 Context/brand.md` — voice rules, audience, content strategy
+- `02 Context/me.md` — identity and positioning
+- Recent LinkedIn posts — if a topic got strong engagement there, that's the next edition
 
 ---
 
 ### Newsletter Identity
 
-**Name:** In Motion
-**Platform:** Beehiiv
-**Positioning:** Practical AI and growth marketing insights for operators and marketers
-**Tone:** Honest, warm, direct. Reads like a message from a knowledgeable friend.
+**Name:** {{NEWSLETTER_NAME}}
+**Platform:** {{NEWSLETTER_PLATFORM}}
+**Audience:** {{AUDIENCE}}
+**Tone:** {{VOICE_TONE}}
 
 ---
 
 ### Format Options (pick one per edition)
 
 - **A) Storytelling** — personal story or behind-the-scenes moment
-- **B) News curation + opinion** — significant AI/tech/marketing news week
+- **B) News curation + opinion** — significant news in your space this week
 - **C) Tutorial/educational** — teach something specific and immediately actionable
 - **D) Provocative opinion** — contrarian or strong stance on something in the market
 - **E) Mixed** — default: story + insight + light curation
@@ -54,26 +53,21 @@ Load context:
 
 ### Voice Rules
 
-- Natural Australian English — not American, not corporate, not stiff
+- {{VOICE_TONE}}
 - No dashes (em dash, en dash, mid-sentence hyphen) — commas or full stops only
-- No formal connectors ("therefore", "however", "moreover") — use "so", "but", "and"
 - No buzzwords, no hard sell language, no invented data
 - Short paragraphs — max 3-4 lines
 - Honest before authoritative — start with a real observation, not credentials
 
 ---
 
-### Content Pillars (same as LinkedIn)
+### Content Pillars
 
-1. Agentic AI
-2. AI Marketing
-3. AEO/Search
-4. Claude Skills
-5. Growth Systems
+{{CONTENT_PILLARS}}
 
 ---
 
 ### After Writing
 
 - Save draft to `Content/newsletter/newsletter_YYYY-MM-DD_{slug}.md`
-- Cross-post to LinkedIn as article or native post after publishing on Beehiiv
+- Cross-post key insight to LinkedIn after publishing
