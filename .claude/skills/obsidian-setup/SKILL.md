@@ -331,7 +331,7 @@ If a token has no value (user skipped), use the fallback from the Token Map — 
 
 From Question 2, create a `Projects/{name}/README.md` for each project mentioned.
 
-Apply the same logic as the MattAI setup skill:
+Apply the same logic:
 - Simple mention → just `README.md`
 - Moderate detail → `README.md` + relevant subdirs
 - Rich detail → full structure

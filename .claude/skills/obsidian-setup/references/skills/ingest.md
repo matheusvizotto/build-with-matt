@@ -62,7 +62,7 @@ Use `Second Brain/knowledge-routing.md` to decide the file. Common routes:
 | Competitor product or strategy update | `03 Intelligence/competitors/{name}.md` |
 | Decision trigger (forces a choice) | `03 Intelligence/decisions/YYYY-MM-DD-{title}.md` |
 | Tool or framework directly used in a project | `Projects/{name}/research/{topic}.md` |
-| Personal brand / content strategy data | `Matt.AI/` — relevant skill or project file |
+| Personal brand / content strategy data | `04 Resources/` — relevant skill or project file |
 | Reusable prompt, template, or framework | `04 Resources/{topic}.md` |
 | Cannot be classified yet | Leave in `00 Inbox/` with a `type: inbox` frontmatter tag and a one-line summary at the top |
 

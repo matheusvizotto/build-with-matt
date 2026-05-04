@@ -27,7 +27,6 @@ SECTION_MAP = {
     "04 Resources": "Resources",
     "Projects": "Projects",
     "Second Brain": "Second Brain",
-    "Matt.AI": "Matt.AI",
     "knowledge": "Knowledge",
     "AI-OS-Blueprint": "Blueprint",
 }
@@ -215,7 +214,7 @@ def format_index(data: dict) -> str:
             lines.append(f"{i}. [[{key}]] — {count} incoming links")
         lines.append("")
 
-    section_order = ["Context", "Daily", "Intelligence", "Projects", "Matt.AI", "Resources", "Second Brain", "Knowledge", "Blueprint", "Other"]
+    section_order = ["Context", "Daily", "Intelligence", "Projects", "Resources", "Second Brain", "Knowledge", "Blueprint", "Other"]
     for section in section_order:
         items = data["by_section"].get(section, [])
         if not items:
