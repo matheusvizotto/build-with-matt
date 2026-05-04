@@ -456,6 +456,24 @@ tags: [daily, setup]
 
 ---
 
+### Step H — Obsidian Visual Config
+
+Create the `.obsidian/` config so the vault opens with colored folders and graph colors already set up.
+
+```bash
+mkdir -p .obsidian/snippets
+```
+
+| Reference | Target |
+|---|---|
+| `references/obsidian/snippets/folder-colors.css` | `./.obsidian/snippets/folder-colors.css` |
+| `references/obsidian/graph.json` | `./.obsidian/graph.json` |
+| `references/obsidian/appearance.json` | `./.obsidian/appearance.json` |
+
+Read each reference file and write it as-is to the target path — no token substitution needed.
+
+---
+
 ## Phase 3 — Confirm
 
 Tell the user what was created. Be specific, not generic.
@@ -478,7 +496,7 @@ Structure:
 Your AI is named {{AI_NAME}} and lives at {{AI_NAME}}.md.
 
 Next steps:
-  1. Open this folder as a vault in Obsidian
+  1. Open this folder as a vault in Obsidian — folder colors load automatically
   2. Run: python3 Second Brain/scripts/vault-index.py
   3. In your next session, just say "resume" — {{AI_NAME}} will orient itself from the index
 
@@ -500,7 +518,7 @@ If agent-enabled is false:
 
 No AI agent configured. Run /onboarding again anytime to add the full AI assistant.
 
-Next step: Open this folder as a vault in Obsidian.
+Next step: Open this folder as a vault in Obsidian — folder colors load automatically.
 ```
 
 ---

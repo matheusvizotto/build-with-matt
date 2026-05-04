@@ -1,0 +1,108 @@
+/* ──────────────────────────────────────────────────
+   AI OS Vault — Folder Color Groups
+   Solid colored nav folders matching the AI OS palette.
+   Install: copy to .obsidian/snippets/ and enable in
+   Settings → Appearance → CSS Snippets.
+   ────────────────────────────────────────────────── */
+
+/* Shared base */
+.nav-folder-title[data-path="00 Inbox"],
+.nav-folder-title[data-path="01 Daily"],
+.nav-folder-title[data-path="02 Context"],
+.nav-folder-title[data-path="03 Intelligence"],
+.nav-folder-title[data-path="04 Resources"],
+.nav-folder-title[data-path="05 Archives"],
+.nav-folder-title[data-path="Projects"],
+.nav-folder-title[data-path="Second Brain"],
+.nav-folder-title[data-path="knowledge"],
+.nav-folder-title[data-path="Departments"],
+.nav-folder-title[data-path="Teams"] {
+  border-radius: 5px;
+  padding: 3px 8px !important;
+  margin-bottom: 2px;
+}
+
+.nav-folder-title[data-path="00 Inbox"] .nav-folder-title-content,
+.nav-folder-title[data-path="01 Daily"] .nav-folder-title-content,
+.nav-folder-title[data-path="02 Context"] .nav-folder-title-content,
+.nav-folder-title[data-path="03 Intelligence"] .nav-folder-title-content,
+.nav-folder-title[data-path="04 Resources"] .nav-folder-title-content,
+.nav-folder-title[data-path="05 Archives"] .nav-folder-title-content,
+.nav-folder-title[data-path="Projects"] .nav-folder-title-content,
+.nav-folder-title[data-path="Second Brain"] .nav-folder-title-content,
+.nav-folder-title[data-path="knowledge"] .nav-folder-title-content,
+.nav-folder-title[data-path="Departments"] .nav-folder-title-content,
+.nav-folder-title[data-path="Teams"] .nav-folder-title-content {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* 00 Inbox — dark teal */
+.nav-folder-title[data-path="00 Inbox"] {
+  background: #1D6B5A !important;
+}
+
+/* 01 Daily — warm orange */
+.nav-folder-title[data-path="01 Daily"] {
+  background: #B5642A !important;
+}
+
+/* 02 Context — rust red */
+.nav-folder-title[data-path="02 Context"] {
+  background: #C04035 !important;
+}
+
+/* 03 Intelligence — amber */
+.nav-folder-title[data-path="03 Intelligence"] {
+  background: #B87830 !important;
+}
+
+/* 04 Resources — dark teal (same family as Inbox) */
+.nav-folder-title[data-path="04 Resources"] {
+  background: #1D6B5A !important;
+}
+
+/* 05 Archives — muted slate teal */
+.nav-folder-title[data-path="05 Archives"] {
+  background: #3A5A54 !important;
+}
+
+/* Projects — cobalt blue */
+.nav-folder-title[data-path="Projects"] {
+  background: #2A52BE !important;
+}
+
+/* Second Brain — deep rose (the AI layer) */
+.nav-folder-title[data-path="Second Brain"] {
+  background: #B02D5A !important;
+}
+
+/* knowledge — forest green */
+.nav-folder-title[data-path="knowledge"] {
+  background: #2A7040 !important;
+}
+
+/* Departments — amber (business mode) */
+.nav-folder-title[data-path="Departments"] {
+  background: #B87830 !important;
+}
+
+/* Teams — amber (business mode) */
+.nav-folder-title[data-path="Teams"] {
+  background: #B87830 !important;
+}
+
+/* Collapse arrow — white to match colored backgrounds */
+.nav-folder-title[data-path="00 Inbox"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="01 Daily"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="02 Context"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="03 Intelligence"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="04 Resources"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="05 Archives"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="Projects"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="Second Brain"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="knowledge"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="Departments"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path="Teams"] .nav-folder-collapse-indicator {
+  color: rgba(255, 255, 255, 0.75) !important;
+}

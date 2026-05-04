@@ -1,0 +1,59 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"02 Context/\"",
+      "color": { "a": 1, "rgb": 5145855 }
+    },
+    {
+      "query": "path:\"01 Daily/\"",
+      "color": { "a": 1, "rgb": 6737151 }
+    },
+    {
+      "query": "path:\"03 Intelligence/\"",
+      "color": { "a": 1, "rgb": 2277119 }
+    },
+    {
+      "query": "path:\"04 Resources/\"",
+      "color": { "a": 1, "rgb": 8913151 }
+    },
+    {
+      "query": "path:Projects/",
+      "color": { "a": 1, "rgb": 3186943 }
+    },
+    {
+      "query": "path:\"Second Brain/\"",
+      "color": { "a": 1, "rgb": 16729201 }
+    },
+    {
+      "query": "path:knowledge/",
+      "color": { "a": 1, "rgb": 2803754 }
+    },
+    {
+      "query": "path:\"00 Inbox/\"",
+      "color": { "a": 1, "rgb": 16566889 }
+    },
+    {
+      "query": "path:Departments/ OR path:Teams/",
+      "color": { "a": 1, "rgb": 16750848 }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.4,
+  "lineSizeMultiplier": 0.51,
+  "collapse-forces": false,
+  "centerStrength": 0.8,
+  "repelStrength": 10,
+  "linkStrength": 0.12,
+  "linkDistance": 500,
+  "scale": 0.2,
+  "close": false
+}
