@@ -17,6 +17,12 @@ Thumbs.db
 *.key
 *.pem
 
+# Personal branding assets (creator-specific, not for students)
+/Matt-Logo/
+
+# Temp/lock files (OS or app-generated)
+.!*
+
 # Personal vault content (never commit to public repo)
 /Context/
 /Daily/
